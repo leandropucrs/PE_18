@@ -1,3 +1,6 @@
+//Leandro Cardoso
+//Julio Leal
+
 #include <iostream>
 using namespace std;
 
@@ -16,7 +19,7 @@ int Datascriadas;
  
  void setMes(int mm)
  {
-  mes = mm;
+	mes = mm;
  }
  
  void setdia(int dd)
@@ -29,7 +32,7 @@ int Datascriadas;
   ano = aaaa;
  }
  
- void setDate(int mm = 0, int dd = 0, int aaaa = 0)
+ void setDate(int dd = 0, int mm = 0, int aaaa = 0)
  {
   setMes(mm);
   setdia(dd);
